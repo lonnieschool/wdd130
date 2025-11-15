@@ -1,8 +1,8 @@
 :root {
     --primary-color: rgb(39, 39, 83); /* Dark Blue */
     --secondary-color: rgb(197, 178, 154); /* Beige */
-    --accent1-color: rgb(76, 76, 231); /* Light Blue */
-    --accent2-color: rgb(46, 27, 27); /* Dark Brown */
+    --accent1-color: rgb(76, 76, 228); /* Light Blue */
+    --accent2-color: rgb(95, 67, 67); /* Brown */
     --heading-font: Arial, Helvetica, sans-serif;
     --body-font: "Lucida Console", "Courier New", monospace;
 }
@@ -36,7 +36,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: #ffffff;
 }
 h2 {
     border: black solid 2px;
