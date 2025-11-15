@@ -1,6 +1,11 @@
 :root {
     --primary-color:#1f1d29;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 main {
     max-width: 840px;
 }
@@ -22,25 +27,35 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+
 }
 p {
     padding: 0;
 }
 aside {
-    width: 15rem;
-    margin: 2px;
-    border: 2px solid rgb(0 0 0 / 0.5);
-    padding: 2rem;
-    background-color: #abe;
-    color: var(--primary-color);
+    width: 15em;
     text-align: center;
 }
 aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+  position: absolute;
+  left: 50px;
+  font-family: cursive;
+}
 footer {
     text-align: center;
     border-top: 3px solid var(--primary-color);
     margin-top: 20px;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 2px solid rgb(0 0 0 / 0.5);
+    padding: 1rem;
+    background-color: #abe;
+    color: var(--primary-color);
 }
