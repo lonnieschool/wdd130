@@ -1,0 +1,78 @@
+:root {
+    --primary-color: rgb(19, 19, 48); /* Dark Blue */
+    --secondary-color: rgb(197, 178, 154); /* Beige */
+    --accent1-color: rgb(63, 63, 148); /* Light Blue */
+    --accent2-color: rgb(46, 27, 27); /* Dark Brown */
+    --heading-font: Arial, Helvetica, sans-serif;
+    --body-font: "Lucida Console", "Courier New", monospace;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+header li {
+    border: black solid 1px;
+    margin: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+h2 {
+    border: black solid 2px;
+    background-color: var(--secondary-color);
+}
+h1, h2 {
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+article {
+    position: absolute;
+    top: 300px;
+    border: black solid 2px;
+    background-color: rgba(197, 178, 154, 0.8);
+}
+footer nav img {
+    width: 50px;
+    height: auto;
+}
+/* class selectors */
+.socialmedia a {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article img {
+    float: right;
+    width: 125px;
+}
