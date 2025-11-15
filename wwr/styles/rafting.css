@@ -1,8 +1,8 @@
 :root {
-    --primary-color: rgb(7, 63, 14); /* Dark Green */
+    --primary-color: rgb(66, 4, 4); /* Dark Red */
     --secondary-color: rgb(197, 178, 154); /* Beige */
     --accent1-color: rgb(76, 76, 228); /* Light Blue */
-    --accent2-color: rgb(95, 67, 67); /* Brown */
+    --accent2-color: rgb(194, 151, 151); /* Brown */
     --heading-font: Arial, Helvetica, sans-serif;
     --body-font: "Lucida Console", "Courier New", monospace;
 }
