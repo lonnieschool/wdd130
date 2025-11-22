@@ -1,7 +1,7 @@
 :root {
     --primary-color: black;
-    --secondary-color: rgb(115, 217, 196); /* Aquamarine */
-    --accent1-color: rgb(126, 29, 11); /* Dark Coral */
+    --secondary-color: rgb(246, 254, 253); /* Aquamarine */
+    --accent1-color: rgb(231, 19, 19); /* Dark Coral */
     --accent2-color: rgb(129, 118, 0); /* Dark Yellow */
     --heading-font: Arial, Helvetica, sans-serif;
     --body-font: "Lucida Console", "Courier New", monospace;
