@@ -1,8 +1,8 @@
 :root {
-    --primary-color: rgb(41, 40, 46); /* Dark Grey */
-    --secondary-color: rgb(33, 85, 69); /* Aquamarine */
-    --accent1-color: rgb(243, 103, 84); /* Coral */
-    --accent2-color: rgb(199, 184, 51); /* Yellow */
+    --primary-color: black;
+    --secondary-color: rgb(115, 217, 196); /* Aquamarine */
+    --accent1-color: rgb(126, 29, 11); /* Dark Coral */
+    --accent2-color: rgb(129, 118, 0); /* Dark Yellow */
     --heading-font: Arial, Helvetica, sans-serif;
     --body-font: "Lucida Console", "Courier New", monospace;
 }
