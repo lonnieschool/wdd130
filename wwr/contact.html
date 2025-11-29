@@ -25,6 +25,7 @@
         </nav>
     </header>
     <main>
+        <h1>Contact Info:</h1>
         <section class="contact-info">
             <h2>WICKED WATERS Rafting Co.</h2>
             <p>
@@ -40,21 +41,20 @@
                 width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
             <form>
-                <label>Full Name: <input type="text" name="fullname" required></label>
-                <label>Email: <input type="email" name="useremail" required></label>
-                <label>Purpose of Message:
-                    <div class="radio-choices">
-                        <label>General Inquiry
-                            <input type="radio" name="General Inquiry" required>
-                        </label>
-                        <label>Reservation Question
-                            <input type="radio" name="Reservation Question" required>
-                        </label>
-                        <label>Website Suggestion
-                            <input type="radio" name="Website Suggestion" required>
-                        </label>
-                    </div>
-                </label>
+                <label>Full Name: <input type="text" name="fullname" id="fullname" required></label>
+                <label>Email: <input type="email" name="useremail" id="useremail" required></label>
+                <label>Purpose of Message:</label>
+                <div class="radio-choices">
+                    <label>General Inquiry
+                        <input type="radio" name="msg-purpose" id="msg-purpose" required>
+                    </label>
+                    <label>Reservation Question
+                        <input type="radio" name="msg-purpose" id="msg-purpose" required>
+                    </label>
+                    <label>Website Suggestion
+                        <input type="radio" name="msg-purpose" id="msg-purpose" required>
+                    </label>
+                </div>
                 <label>Message:<textarea id="message" name="message" placeholder="Type here"></textarea></label>
                 <label><input type="checkbox" id="news" name="news">Please subscribe me to the monthly
                     newsletter</label>
