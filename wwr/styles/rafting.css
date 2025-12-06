@@ -116,7 +116,7 @@ footer {
 }
 .action {
     position: absolute;
-    top: 100px;
+    top: 150px;
     border: black solid 2px;
     background-color: rgba(250, 237, 58, 0.8);
     color: black;
@@ -193,7 +193,6 @@ footer {
 .offers {
     display: grid;
     grid-template-columns: auto auto;
-    grid-row: auto auto;
     justify-content: center;
     grid-template-areas: 
         "top top"
@@ -203,13 +202,15 @@ footer {
     grid-area: top;
     border: black solid 2px;
     background-color: var(--primary-color);
+    margin: 2px;
 }
 .offers h3 {
     color: var(--accent1-color)
 }
 .offers figure, .offers img{
     max-width: 400px;
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+    margin: 2px;
 }
 .rivers, .equipment {
     display: grid;
@@ -217,6 +218,7 @@ footer {
     grid-template-rows: repeat(4, auto);
     background-color: var(--primary-color);
     border: black solid 2px;
+    margin: 5px;
 }
 .dedication {
     display: grid;
