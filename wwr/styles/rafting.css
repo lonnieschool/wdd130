@@ -16,7 +16,7 @@ body {
     color: var(--accent1-color);
 }
 header, main, footer {
-    width: 840px;
+    width: auto;
     margin: 0 auto;
 }
 header {
@@ -25,11 +25,13 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-around;
+    border-bottom: black solid 2px;
 }
 header img {
     order: 1;
-    padding: 15px;
     width: 130px;
+    border: black solid 1px;
+    margin: 10px
 }
 header li {
     border: black solid 1px;
@@ -54,6 +56,7 @@ nav a {
 }
 h1 {
     text-align: center;
+    margin-top: 20px;
 }
 h2 {
     text-align: center;
@@ -75,10 +78,13 @@ footer {
     text-align: center;
     display: flex;
     justify-content: flex-end;
+    border-top: black solid 2px;
+    background-color: var(--primary-color);
 }
 /* class selectors */
 .socialmedia a {
     text-decoration: none;
+    padding: 5px;
 }
 .hero {
     position: relative;
@@ -101,18 +107,32 @@ footer {
     position: absolute;
     top: 150px;
     border: black solid 2px;
-    background-color: rgba(199, 184, 51, 0.8);
+    background-color: rgba(250, 237, 58, 0.8);
     color: black;
 }
 .hero article img {
     float: right;
     width: 125px;
 }
+.action {
+    position: absolute;
+    top: 100px;
+    border: black solid 2px;
+    background-color: rgba(250, 237, 58, 0.8);
+    color: black;
+    right: 25px;
+    max-width: 125px;
+}
+.action figcaption {
+    color: var(--secondary-color);
+    font-size: large;
+    text-align: center;
+}
 .history {
     border: black solid 2px;
     background-color: var(--primary-color);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: auto auto;
     grid-template-areas: 
         "top top top"
@@ -142,11 +162,11 @@ footer {
 .adventure img {
     max-width: 125px;
 }
-.figures {
+.adventure .figures {
     display: flex;
     justify-content: space-evenly;
 }
-.figures figure {
+.adventure .figures figure {
     padding: 10px;
 }
 .contact-info {
@@ -169,4 +189,135 @@ footer {
 }
 .radio-choices {
     text-align: right;
+}
+.offers {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    justify-content: center;
+    grid-template-areas: 
+        "top top"
+        "p1 p2";
+}
+.offers h2 {
+    grid-area: top;
+    border: black solid 2px;
+    background-color: var(--primary-color);
+}
+.offers h3 {
+    color: var(--accent1-color)
+}
+.offers figure, .offers img{
+    max-width: 400px;
+    color: var(--accent2-color)
+}
+.rivers, .equipment {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    background-color: var(--primary-color);
+    border: black solid 2px;
+}
+.dedication {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    background-color: var(--primary-color);
+    border: black solid 2px;
+}
+.dedication img {
+    max-height: 500px;
+}
+.dedication .message {
+    text-align: center;
+    max-width: 300px;
+    padding-top: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.dedication form {
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid var(--main-color);
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+}
+.dedication form label {
+    max-width: 100px;
+}
+.trip-info {
+    display: grid;
+    grid-template-areas: 
+        "top top"
+        "p1 p2";
+}
+.trips {
+    grid-area: p1;
+    max-width: 700px;
+}
+.trips div {
+    background-color: var(--primary-color);
+    border: black solid 2px;
+    margin: 15px;
+    display: grid;
+    grid-template-areas: 
+        "top top top"
+        "p1 p2 p3";
+    height: 300px;
+}
+.trips table {
+    background-color: #fff;
+    border: black solid 2px;
+    grid-area: p2;
+    margin: 10px;
+}
+.trips h2 {
+    grid-area: top;
+    margin-top: 10px;
+}
+.trips img {
+    max-width: 300px;
+    margin: 10px;
+    grid-area: p1;
+}
+.trips .book img{
+    max-width: 75px;
+}
+.trips h3 {
+    color: var(--secondary-color);
+    font-size: larger;
+}
+.descriptions {
+    grid-area: p2;
+    background-color: var(--primary-color);
+    border: black solid 2px;
+}
+.descriptions h2 {
+    color: var(--accent2-color);
+}
+.descriptions p {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: black solid 2px;
+    margin: 2px;
+    color: var(--accent1-color)
+}
+.equipment-info {
+    display: grid;
+    grid-template-areas: 
+        "top top"
+        "p1 p2";
+    background-color: var(--primary-color);
+    border: black solid 2px;
+}
+.equipment-info h2 {
+    grid-area: top;
+}
+.equipment-info p {
+    grid-area: p1;
+}
+.equipment-info ul {
+    grid-area: p2;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: black solid 2px;
+    padding: 10px;
+    padding-left: 20px;
 }
